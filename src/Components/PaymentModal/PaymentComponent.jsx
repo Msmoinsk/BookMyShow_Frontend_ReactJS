@@ -15,7 +15,21 @@ const PaymentComponent = (props) => {
     }
 
     const launchRazorPay = () => {
-        console.log(price);
+        let options = {
+            key: "rzp_test_trSZbjvDJSItP3",
+            amount: price * 100,
+            currency: "INR",
+            name: "Book My Show Clone",
+            description: "Movie purchase or rent",
+            handler: () => {
+                setIsOpen(false);
+                alert("Payment Succesful");
+            },
+            theme: {color: "#c4242d"},
+        };
+      
+        let razorPay = window.Razorpay(options);
+        razorPay.open();
     }
 
     return (

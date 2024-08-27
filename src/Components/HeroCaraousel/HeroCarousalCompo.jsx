@@ -81,7 +81,7 @@ const HeroCarousalCompo = () => {
     infinite: true,
     speed: 500,
     slideToScroll: 1,
-    slidesToShow: 3,
+    slidesToShow: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -108,7 +108,7 @@ const HeroCarousalCompo = () => {
         <HeroSlider {...settingMediumScreen}>
         {
           images.map((img, index) => 
-            <div key={index} className='w-full h-46 px-1 py-3 md:h-80'>
+            <div key={index} className='w-full px-1 py-3 md:h-80'>
               <img src={`https://image.tmdb.org/t/p/original${img.backdrop_path}`} alt="Hero Banner" className='w-full h-full rounded-md object-cover' />
             </div>
           )
@@ -122,7 +122,7 @@ const HeroCarousalCompo = () => {
         <HeroSlider {...settingLargeScreen}>
           {
             images.map((img, index) => 
-              <div key={index} className='w-full h-76 px-2 py-3'>
+              <div key={index} className='w-full h-96 px-2 py-3'>
                 <img src={`https://image.tmdb.org/t/p/original${img.backdrop_path}`} alt="Hero Banner" className='w-full h-full rounded-md object-cover' />
               </div>
             )

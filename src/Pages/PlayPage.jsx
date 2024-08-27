@@ -18,7 +18,7 @@ const PlayPage = () => {
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex justify-center items-center">
                             <PosterComponent
                             isPlay={true}
-                            src=""
+                            poster_path="/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg"
                             title="So Rude of Me By Sweets"
                             subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
                             />
@@ -26,7 +26,7 @@ const PlayPage = () => {
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center justify-center">
                             <PosterComponent
                             isPlay={true}
-                            src=""
+                            poster_path="/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg"
                             title="So Rude of Me By Sweets"
                             subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
                             />
@@ -34,7 +34,7 @@ const PlayPage = () => {
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center justify-center">
                             <PosterComponent
                             isPlay={true}
-                            src=""
+                            poster_path="/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg"
                             title="So Rude of Me By Sweets"
                             subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
                             />
@@ -42,7 +42,7 @@ const PlayPage = () => {
                         <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3 flex items-center justify-center">
                             <PosterComponent
                             isPlay={true}
-                            src=""
+                            poster_path="/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg"
                             title="So Rude of Me By Sweets"
                             subtitle="Comedy Shows | English, Kannada | 18yrs+ | 2hr 30mins"
                             />
